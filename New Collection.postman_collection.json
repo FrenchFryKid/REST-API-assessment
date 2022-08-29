@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "b764a0fe-7f21-44fc-806e-fba687ec2981",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23006900"
+	},
+	"item": [
+		{
+			"name": "Create contact",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/contacts/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"contacts",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "View, Edit and Delete Contact",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/contacts",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"contacts"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
